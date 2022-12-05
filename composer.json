@@ -5,7 +5,7 @@
     "license": "MIT",
     "autoload": {
         "psr-4": {
-            "kelompok\\cv\\": "src/"
+            "kelompok3\\cv\\": "src/"
         }
     },
     "authors": [
@@ -18,7 +18,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "kelompok\\cv\\CVServiceProvider"
+                "kelompok3\\cv\\CVServiceProvider"
             ]
         }
     }
