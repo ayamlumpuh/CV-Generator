@@ -3,11 +3,6 @@
     "description": "Package untuk membuat CV",
     "type": "library",
     "license": "MIT",
-    "autoload": {
-        "psr-4": {
-            "kelompok3\\cv\\": "src/"
-        }
-    },
     "authors": [
         {
             "name": "Kelompok 3"
@@ -15,6 +10,11 @@
     ],
     "minimum-stability": "dev",
     "require": {},
+    "autoload": {
+        "psr-4": {
+            "kelompok3\\cv\\": "src/"
+        }
+    },
     "extra": {
         "laravel": {
             "providers": [
